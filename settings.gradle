@@ -1,0 +1,3 @@
+include 'chapter1'
+findProject(':chapter1')?.name = 'cracking-the-coding-interview-ed-4-java'
+
