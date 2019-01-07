@@ -21,6 +21,8 @@ public class Ch1_2_Reverse_a_String {
         return String.valueOf(inputCharArray);
     }
 
+    // Skipping the pointer based gotcha in this C based question
+
 
     public static void main(String[] args) {
         assertEquals("dcbaX", reverseCString("abcdX"));
